@@ -1,0 +1,24 @@
+{
+	"kintoneEventOn": {
+		"prefix": "ke",
+		"body": [
+			"kintone.events.on('${1|mobile.app.record.index.show,app.record.index.show,app.record.index.edit.show,app.record.index.edit.submit,app.record.index.edit.submit.success,app.record.index.edit.change.<fieldcode>|}', function(event) {",
+			"\t$0",
+			"\treturn event;",
+			"});"
+		],
+		"description": "event of the kintone"
+	},
+	"kintoneRequest": {
+		"prefix": "ka",
+		"body": [
+			"kintone.api(kintone.api.url('/k/v1/${1|app,apps,app/deploy,app/form/fieldsfields,app/form/layoutlayout,app/viewviewsviews,app/status,records,record|}', true), '${2|GET,POST,UPDATE,DELETE|}', ${body}, function(resp) {",
+			"\tconsole.log(resp);",
+			"\t$0",
+			"}, function(error) {",
+			"\tconsole.log(error);",
+			"});"
+		],
+		"description": "event of the kintone"	
+	}
+}

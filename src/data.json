@@ -1,0 +1,378 @@
+{ 
+    "data": [
+            {
+            "keyword":"kintone.app.record.",
+            "data":[
+                {
+                    "label":"getSpaceElement",
+                    "kind":"function",
+                    "documentation":"(method) getSpaceElement(spaceid)",
+                    "insertText":"getSpaceElement(spaceid)"
+                },
+                {
+                    "label":"getId",
+                    "kind":"function",
+                    "documentation":"(method) getId()",
+                    "insertText":"getId()"
+                },
+                {
+                    "label":"get",
+                    "kind":"function",
+                    "documentation":"(method) get()",
+                    "insertText":"get()"
+                },
+                {
+                    "label":"set",
+                    "kind":"function",
+                    "documentation":"(method) set(record)",
+                    "insertText":"set(record)"
+                },
+                {
+                    "label":"getFieldElement",
+                    "kind":"function",
+                    "documentation":"(method) getFieldElement(fieldcode)",
+                    "insertText":"getFieldElement(fieldcode)"
+                },
+                {
+                    "label":"getHeaderMenuSpaceElement",
+                    "kind":"function",
+                    "documentation":"(method) getHeaderMenuSpaceElement()",
+                    "insertText":"getHeaderMenuSpaceElement()"
+                },
+                {
+                    "label":"setFieldShown",
+                    "kind":"function",
+                    "documentation":"(method) setFieldShown(fieldcode, isshown)",
+                    "insertText":"setFieldShown(fieldcode, isshown)"
+                },
+                {
+                    "label":"setGroupFieldOpen",
+                    "kind":"function",
+                    "documentation":"(method) setGroupFieldOpen(fieldcode, isopen)",
+                    "insertText":"setGroupFieldOpen(fieldcode, isopen)"
+                }
+            ]
+            },
+            {
+            "keyword":"kintone.app.",
+            "data":[
+                {
+                    "label":"getId",
+                    "kind":"function",
+                    "documentation":"(method) getId()",
+                    "insertText":"getId()"
+                },
+                {
+                    "label":"getQueryCondition",
+                    "kind":"function",
+                    "documentation":"(method) getQueryCondition()",
+                    "insertText":"getQueryCondition()"
+                },
+                {
+                    "label":"getQuery",
+                    "kind":"function",
+                    "documentation":"(method) getQuery()",
+                    "insertText":"getQuery()"
+                },
+                {
+                    "label":"getFieldElements",
+                    "kind":"function",
+                    "documentation":"(method) getFieldElements(fieldcode)",
+                    "insertText":"getFieldElements(fieldcode)"
+                },
+                {
+                    "label":"getHeaderSpaceElement",
+                    "kind":"function",
+                    "documentation":"(method) getHeaderSpaceElement()",
+                    "insertText":"getHeaderSpaceElement()"
+                },
+                {
+                    "label":"getHeaderMenuSpaceElement",
+                    "kind":"function",
+                    "documentation":"(method) getHeaderMenuSpaceElement()",
+                    "insertText":"getHeaderMenuSpaceElement()"
+                },
+                {
+                    "label":"getLookupTargetAppId",
+                    "kind":"function",
+                    "documentation":"(method) getLookupTargetAppId(fieldcode)",
+                    "insertText":"getLookupTargetAppId(fieldcode)"
+                },
+                {
+                    "label":"getRelatedRecordsTargetAppId",
+                    "kind":"function",
+                    "documentation":"(method) getRelatedRecordsTargetAppId(fieldcode)",
+                    "insertText":"getRelatedRecordsTargetAppId(fieldcode)"
+                },
+                {
+                    "label":"record",
+                    "kind":"object",
+                    "documentation":"(object) { getSpaceElement: f, getId: f, get: f, set: f, getFieldElement: f, getHeaderMenuSpaceElement: f, setFieldShown: f, setGroupFieldOpen: f, }",
+                    "insertText":"record"
+                }
+            ]
+            },
+            {
+            "keyword":"kintone.events.",
+            "data":[
+                {
+                "label":"on",
+                "kind":"function",
+                "documentation":"(method) on(event, handler)",
+                "insertText":"on(event, handler)"
+                },
+                {
+                "label":"off",
+                "kind":"function",
+                "documentation":"(method) off()",
+                "insertText":"off()"
+                }
+                ]
+                },
+                {
+                "keyword":"kintone.mobile.app.record.",
+                "data":[
+                {
+                "label":"get",
+                "kind":"function",
+                "documentation":"(method) get()",
+                "insertText":"get()"
+                },
+                {
+                "label":"getSpaceElement",
+                "kind":"function",
+                "documentation":"(method) getSpaceElement(spaceid)",
+                "insertText":"getSpaceElement(spaceid)"
+                },
+                {
+                "label":"set",
+                "kind":"function",
+                "documentation":"(method) set(record)",
+                "insertText":"set(record)"
+                },
+                {
+                "label":"setFieldShown",
+                "kind":"function",
+                "documentation":"(method) setFieldShown(fieldcode, isshown)",
+                "insertText":"setFieldShown(fieldcode, isshown)"
+                },
+                {
+                "label":"setGroupFieldOpen",
+                "kind":"function",
+                "documentation":"(method) setGroupFieldOpen(fieldcode, isopen)",
+                "insertText":"setGroupFieldOpen(fieldcode, isopen)"
+                },
+                {
+                "label":"getId",
+                "kind":"function",
+                "documentation":"(method) getId()",
+                "insertText":"getId()"
+                }
+            ]
+            },
+            {
+            "keyword":"kintone.mobile.app.",
+            "data":[
+                {
+                "label":"getHeaderSpaceElement",
+                "kind":"function",
+                "documentation":"(method) getHeaderSpaceElement()",
+                "insertText":"getHeaderSpaceElement()"
+                },
+                {
+                "label":"getId",
+                "kind":"function",
+                "documentation":"(method) getId()",
+                "insertText":"getId()"
+                },
+                {
+                "label":"getLookupTargetAppId",
+                "kind":"function",
+                "documentation":"(method) getLookupTargetAppId(fieldcode)",
+                "insertText":"getLookupTargetAppId(fieldcode)"
+                },
+                {
+                "label":"getQuery",
+                "kind":"function",
+                "documentation":"(method) getQuery()",
+                "insertText":"getQuery()"
+                },
+                {
+                "label":"getQueryCondition",
+                "kind":"function",
+                "documentation":"(method) getQueryCondition()",
+                "insertText":"getQueryCondition()"
+                },
+                {
+                "label":"getRelatedRecordsTargetAppId",
+                "kind":"function",
+                "documentation":"(method) getRelatedRecordsTargetAppId(fieldcode)",
+                "insertText":"getRelatedRecordsTargetAppId(fieldcode)"
+                },
+                {
+                "label":"record",
+                "kind":"object",
+                "documentation":"(object) { get: f, getSpaceElement: f, set: f, setFieldShown: f, setGroupFieldOpen: f, getId: f, }",
+                "insertText":"record"
+                }
+            ]
+            },
+            {
+            "keyword":"kintone.mobile.",
+            "data":[
+                {
+                "label":"app",
+                "kind":"object",
+                "documentation":"(object) { getHeaderSpaceElement: f, getId: f, getLookupTargetAppId: f, getQuery: f, getQueryCondition: f, getRelatedRecordsTargetAppId: f, record{...}, }",
+                "insertText":"app"
+                }
+                ]
+                },
+                {
+                "keyword":"kintone.oauth.",
+                "data":[
+                {
+                "label":"clearAccessToken",
+                "kind":"function",
+                "documentation":"(method) clearAccessToken(clientinfo, callback)",
+                "insertText":"clearAccessToken(clientinfo, callback)"
+                },
+                {
+                "label":"hasAccessToken",
+                "kind":"function",
+                "documentation":"(method) hasAccessToken(clientinfo)",
+                "insertText":"hasAccessToken(clientinfo)"
+                },
+                {
+                "label":"proxy",
+                "kind":"function",
+                "documentation":"(method) proxy(clientinfo, url, method, headers, data, opt_callback, opt_errback)",
+                "insertText":"proxy(clientinfo, url, method, headers, data, opt_callback, opt_errback)"
+                },
+                {
+                "label":"redirectToAuthenticate",
+                "kind":"function",
+                "documentation":"(method) redirectToAuthenticate(clientinfo, callbackurl)",
+                "insertText":"redirectToAuthenticate(clientinfo, callbackurl)"
+                }
+                ]
+                },
+                {
+                "keyword":"kintone.plugin.app.",
+                "data":[
+                {
+                "label":"getConfig",
+                "kind":"function",
+                "documentation":"(method) getConfig(pluginid)",
+                "insertText":"getConfig(pluginid)"
+                },
+                {
+                "label":"setConfig",
+                "kind":"function",
+                "documentation":"(method) setConfig(config, opt_callback)",
+                "insertText":"setConfig(config, opt_callback)"
+                },
+                {
+                "label":"getProxyConfig",
+                "kind":"function",
+                "documentation":"(method) getProxyConfig(url, method)",
+                "insertText":"getProxyConfig(url, method)"
+                },
+                {
+                "label":"setProxyConfig",
+                "kind":"function",
+                "documentation":"(method) setProxyConfig(url, method, headers, data, opt_callback)",
+                "insertText":"setProxyConfig(url, method, headers, data, opt_callback)"
+                },
+                {
+                "label":"proxy",
+                "kind":"function",
+                "documentation":"(method) proxy(pluginid, url, method, headers, data, opt_callback, opt_errback)",
+                "insertText":"proxy(pluginid, url, method, headers, data, opt_callback, opt_errback)"
+                }
+            ]
+            },
+            {
+            "keyword":"kintone.plugin.",
+            "data":[
+                {
+                    "label":"app",
+                    "kind":"object",
+                    "documentation":"(object) { getConfig: f, setConfig: f, getProxyConfig: f, setProxyConfig: f, proxy: f, }",
+                    "insertText":"app"
+                }
+                ]
+                },
+            {
+            "keyword":"kintone.",
+            "data":[
+                {
+                    "label":"Promise",
+                    "kind":"function",
+                    "documentation":"(method) Promise()",
+                    "insertText":"Promise()"
+                },
+                {
+                    "label":"getRequestToken",
+                    "kind":"function",
+                    "documentation":"(method) getRequestToken()",
+                    "insertText":"getRequestToken()"
+                },
+                {
+                    "label":"getLoginUser",
+                    "kind":"function",
+                    "documentation":"(method) getLoginUser()",
+                    "insertText":"getLoginUser()"
+                },
+                {
+                    "label":"getUiVersion",
+                    "kind":"function",
+                    "documentation":"(method) getUiVersion()",
+                    "insertText":"getUiVersion()"
+                },
+                {
+                    "label":"app",
+                    "kind":"object",
+                    "documentation":"(object) { getId: f, getQueryCondition: f, getQuery: f, getFieldElements: f, getHeaderSpaceElement: f, getHeaderMenuSpaceElement: f, getLookupTargetAppId: f, getRelatedRecordsTargetAppId: f, record{...}, }",
+                    "insertText":"app"
+                },
+                {
+                    "label":"api",
+                    "kind":"function",
+                    "documentation":"(method) api(pathorurl, method, params, opt_callback, opt_errback)",
+                    "insertText":"api(pathorurl, method, params, opt_callback, opt_errback)"
+                },
+                {
+                    "label":"events",
+                    "kind":"object",
+                    "documentation":"(object) { on: f, off: f, }",
+                    "insertText":"events"
+                },
+                {
+                    "label":"mobile",
+                    "kind":"object",
+                    "documentation":"(object) { app{...}, }",
+                    "insertText":"mobile"
+                },
+                {
+                    "label":"oauth",
+                    "kind":"object",
+                    "documentation":"(object) { clearAccessToken: f, hasAccessToken: f, proxy: f, redirectToAuthenticate: f, }",
+                    "insertText":"oauth"
+                },
+                {
+                    "label":"plugin",
+                    "kind":"object",
+                    "documentation":"(object) { app{...}, }",
+                    "insertText":"plugin"
+                },
+                {
+                    "label":"proxy",
+                    "kind":"function",
+                    "documentation":"(method) proxy(url, method, headers, data, opt_callback, opt_errback)",
+                    "insertText":"proxy(url, method, headers, data, opt_callback, opt_errback)"
+                }
+            ]
+            }
+    ]
+}
